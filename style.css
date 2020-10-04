@@ -1,0 +1,542 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Roman khan
+	Author URI: http://www.abirroman.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. photography *****************/
+
+
+@font-face{
+	
+	font-family:"GothamRounded";
+	src:url('fonts/GothamRounded.woff') format('woff');
+}
+
+body{
+
+	line-height: 1.3em;
+}
+
+
+/*********** 2. Header area  ***********/
+
+.container{
+	width:80%;
+	margin:0 auto;
+	max-width: 960px;
+	
+}
+
+.header-area {
+	
+	overflow:hidden;
+	background:url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	text-align:center;
+	padding:25px 0;
+}
+
+/*********** 2.1 Menu Area **********/
+
+.menu-area{
+	overflow:hidden;
+	
+}
+
+.menu-area ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+.menu-area ul li{
+	display:inline;
+	margin:0 24px;
+}
+.menu-area ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-family:"GothamRounded";
+	font-size:12px;
+	letter-spacing:3px;
+}
+
+.menu-area ul .logo {
+	width:40px;
+	height: auto;
+	margin:0 40px;
+}
+
+.welcome-area{
+	color:#FFFFFF;
+	overflow:hidden;
+	margin-top:223px;
+}
+.welcome-area h2{
+	font-size:32px;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-family:"GothamRounded";
+	
+}
+.welcome-area h5{
+	font-size:14px;
+	letter-spacing:2px;
+	font-family:Myriad Pro;
+}
+.welcome-area a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	padding:18px 30px;
+	border-radius:5px;
+	display:inline-block;
+	letter-spacing:2px;
+	background-color:#16A086;
+}
+.social-media{
+	overflow:hidden;
+	margin-top:224px;
+}
+.social-media ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.social-media ul li{
+	display:inline;
+	margin:0 15px;
+}
+.social-media ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	display:inline-block;
+	font-size:26px;
+}
+
+/***************** 3. Getting Started *****************/
+
+
+.getting-start{
+	
+	overflow:hidden;
+	background-color:#f5f6f7;
+}
+.start{
+
+	margin-top:60px;
+	background-image: url('images/hand.png');
+	background-repeat: no-repeat; 
+	background-position:top right;
+	background-size:70% auto;
+
+}
+.rappresent{
+	padding:60px 0;
+}
+.rappresent h2{
+	
+	text-transform:uppercase;
+	font-size:20px;
+	font-family:Myriad Pro;
+	color:#16A086;
+	
+}
+.rappresent p{
+	font-family:Myriad Pro;
+	font-weight:normal;
+	color:#4b4b4b;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:50px 0;
+}
+.rappresent a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	width:150px;
+	height:auto;
+	padding:15px 0;
+	text-align:center;
+	border-radius:5px;
+	display:inline-block;
+	letter-spacing:2px;
+	background-color:#16A086;
+}
+
+
+/*********** 4. Design Area **************/
+
+.design-area{
+	
+	overflow:hidden;
+	margin-top:80px;
+}
+.design{
+	background-image:url('images/mobile.png');
+	background-repeat:no-repeat;
+	background-position:top left;
+	background-size:35%;
+	overflow:hidden;
+	margin-right:25%;
+}
+
+.design-text{
+	width:40%;
+	height:auto;
+	float:right;
+}
+.design-text h3{
+	
+	text-transform:uppercase;
+	font-size:20px;
+	font-family:Myriad Pro;
+	color:#16A086;
+}
+.design-text p{
+	
+	font-family:Myriad Pro;
+	font-weight:normal;
+	color:#4b4b4b;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:50px 0;
+}
+.btn{
+	
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	width:150px;
+	height:auto;
+	padding:15px 0;
+	text-align:center;
+	display:inline-block;
+	letter-spacing:2px;
+	background-color:#16A086;
+}
+
+.arrow-area i{
+	
+	color:#000000;
+	font-size:26px;
+	text-decoration:none;
+	margin-right:15px;
+}
+.slide{
+	margin:50px 0;
+}
+
+
+/************ 5. Community Area ************/
+
+.community-area{
+	background-color:#f5f6f7;
+	overflow:hidden;
+	padding:60px 0;
+}
+
+.col-1-3{
+	width:31.33%;
+	margin:0 1%;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	padding-bottom:30px;
+}
+.col-1-3 h2{
+	text-transform:uppercase;
+	font-size:20px;
+	font-family:Myriad Pro;
+}
+.col-1-3 p{
+	font-family:Myriad Pro;
+	font-weight:normal;
+	color:#4b4b4b;
+	font-size:14px;
+	letter-spacing:1px;
+}
+.col-1-3 img{
+	width:100%;
+	height:auto;
+}
+
+.community .green img{
+	width:60px;
+	height:auto;
+}
+
+/****** Subscribe Area *******/
+
+
+.subscribe-area {
+	background: url('images/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 200px 0;
+	overflow:hidden;
+}
+
+.subscribe-area form {
+	width: 280px;
+	margin: auto;
+	height:auto;
+}
+.subscribe-area form input[type="email"] {
+	background: #FFFFFF;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+	margin-right: 0;
+}
+.subscribe-area form button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 9px 20px;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+	margin-left: -5px;
+}
+
+/********* 7. Download Area ***********/
+
+.download-area{
+	overflow:hidden;
+	padding:80px 0;
+	background-color:#f5f6f7;
+	text-align:center;
+}
+.download-text{
+	margin-bottom:50px;
+}
+.download-text h2{
+	
+	text-transform:uppercase;
+	font-size:20px;
+	font-family:Myriad Pro;
+}
+.download-text p{
+	
+	font-family:Myriad Pro;
+	font-weight:normal;
+	color:#4b4b4b;
+	font-size:14px;
+	letter-spacing:1px;
+}
+.download-store {
+	float:left;
+	width:50%;
+	margin: auto;
+	
+}
+
+.download-store input[type="text"]{
+	
+	background-color:#1abc9c;
+	border:none;
+	margin-right:0;
+	text-transform:uppercase;
+	padding:14px 25px;
+	border-radius:3px 0 0 3px;
+	display:inline-block;
+}
+.download-store button{
+	
+	background-color:#16a085;
+	border:none;
+	color:#FFFFFF;
+	padding:13px 15px;
+	display:inline-block;
+	margin-left:-5px;
+	border-radius:0 3px 3px 0;
+}
+
+	
+
+/********** 8. Footer Area ******/
+
+.footer-area{
+	padding:50px 0;
+	overflow:hidden;
+}
+.footer-left{
+	width:80%;
+	float:left;
+height:auto;	
+}
+.footer-menu{
+
+	width:100%;
+}
+.footer-menu:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.footer-menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+.footer-menu ul li{
+	float:left;
+	
+}
+.footer-menu ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px 15px;
+	color:#000000;
+	font-weight:bold;
+}
+.footer-menu ul li:after{
+	content:'|';
+	color:#16a085;
+}
+.footer-menu ul li:last-child:after{
+	
+	content:'';
+}
+.footer-text p{
+	text-transform:capitalize;
+	font-family:Myriad Pro;
+	font-size:14px;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+.footer-image{
+	width:20%;
+	float:left;
+	height:auto;
+}
+.footer-image img{
+	width:60px;
+	float:right;
+}
+
+
+
+@media all and (max-width: 1000px){
+	
+	.container{
+		width:90%;
+	}
+	.menu-area ul li{
+	
+		display:inline-block;
+		margin:0 8px;
+	}
+	.menu-area ul .logo {
+		width:40px;
+		height: auto;
+		margin:0 30px;
+	}
+	.col-1-3{
+		width:48%;
+	}
+	.download-store {
+		float:left;
+		margin-bottom:30px;
+	}
+	.design-text{
+		width:50%;
+	}
+	.start{
+		background-position:bottom right;
+		background-size:40% auto;
+		margin-bottom:-25px;	
+	}
+
+}
+
+@media all and (max-width: 768px){
+	
+	
+	.menu-area ul li{
+	
+		display:block;
+		margin:20px 0;
+	}
+	.welcome-area h2{
+		font-size:24px;
+	}
+
+	.col-1-3{
+		width:98%;
+	}
+	.download-store {
+		float:none;
+		width:100%;
+		margin: auto;
+		padding-bottom:25px;
+	}
+	.design-text{
+		width:50%;
+	}
+	.start{
+		background-position:bottom right;
+		background-size:50% auto;	
+	}
+	.footer-left{
+		width:100%;
+		float:none;
+	}
+	.footer-image{
+		width:100%;
+	}
+	.footer-image img{
+		float:none;
+	}
+	.footer-menu ul li a{
+
+		padding:10px 10px;
+		font-weight:normal;
+	}
+	.footer-text p{
+		font-size:12px;
+		font-weight:normal;
+	}
+
+	.design{
+		
+		background-position:top left;
+		background-size:40%;
+	}
+	.start{
+		margin-top:0;
+		background-position:bottom right;
+		background-size:40% auto;
+		margin-bottom:-30px;
+	}
+
+	.rappresent p{
+		margin:15px 0;
+	}
+	
+}
